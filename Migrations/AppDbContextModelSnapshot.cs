@@ -13,7 +13,6 @@ namespace EmployeeApp.Migrations
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
-#pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.36");
 
             modelBuilder.Entity("EmployeeApp.Models.Employee", b =>
@@ -60,7 +59,6 @@ namespace EmployeeApp.Migrations
                             Salary = 0m
                         });
                 });
-#pragma warning restore 612, 618
         }
     }
 }
